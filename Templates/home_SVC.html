@@ -1,0 +1,27 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href={% static "style.css" %}>
+</head>
+<body>
+    <div class="box">
+        <h1><i>Diabetes Awareness - SVM</i></h1>
+    </div>
+    <div class="container">
+        <div class="form">
+            <form action="prediction_svc">
+                <button class="predict-button" type="submit">Prediction</button>
+            </form>
+            <form action="history_svc">
+                <button class="history-button" type="submit">History</button>
+            </form>
+        </div>
+        <h4>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Glucose is your body’s main source of energy. Your body can make glucose, but glucose also comes from the food you eat.
+        </h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('pexels-nataliya-vaitkevich-6942082.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.head {
+    width: 550px;
+    margin: auto;
+    margin-top: 3%;
+    background: rgb(234, 186, 152);
+}
+.head h1{
+    font-size: 300%;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(209, 35, 8);
+    font-style: initial;
+}
+.form {
+    width: 700px;
+    height: 550px;
+    margin: 50px,auto;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: rgba(167, 197, 208, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(63, 5, 5, 0.3);
+}
+input[type=radio] {
+    border: 0px;
+    width: 70px;
+    height: 35px;
+}
+.btn {
+    margin: 50px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 117, 213);
+    transition-duration: 0.5s;
+    width: 35%;
+    height: 50px;
+    right: 30px;
+    position: absolute;
+    font-size: 18px ;
+    border: 2px solid #181111;
+}
+.btn:hover{
+    background-color: rgb(147, 138, 18);
+    color: aliceblue;
+}
+.btn1 {
+    margin: 50px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 117, 213);
+    transition-duration: 0.5s;
+    width: 30%;
+    height: 50px;
+    font-size: 18px ;
+    position: absolute;
+    left: 30px;
+    border: 2px solid #181111;
+}
+.btn1:hover{
+    background-color: rgb(147, 138, 18);
+    color: aliceblue;
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #ef0956;
+}
+.sure {
+    width: 75%;
+    height: 90px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin:10px auto;
+    color:  rgb(15, 3, 63);
+    border: 2px solid #181111;
+    border-radius: 8px;
+    background-color: bisque;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+.content span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 20px;
+    color: rgb(15, 3, 63);
+}
+form {
+    width: 100%;
+    position: relative;
+}
+.content1{
+    color: #ef0956;
+}
+.content1 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+label {
+    font-size: 30px;
+}
+

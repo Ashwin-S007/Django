@@ -1,0 +1,39 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction Result</title>
+    <link rel="stylesheet" href={% static "style2.css" %}>
+    
+</head>
+<body>
+    <div class="head">
+        <h1>Diabetes Prediction Result</h1>
+    </div>
+    <div class="form">
+        <div class="content">
+            <p>Prediction:<span>{{ prediction }}</span></p><br>
+            <p>Is the Above Prediction Correct?</p>
+        </div>
+        <div class="content1">
+            <form action="collect_gb">
+                <input type="radio"  name="Prediction" value="Yes">
+                <label>Yes</label>
+                <input type="radio" name="Prediction" value="No">
+                <label>No</label><br><br>
+                <div class="sure">
+                    <p><h2>NOTE:</h2>Give us your Valid Input only if you are 100% sure about your state.<br>Don't Mislead as 
+                    this data will be used for further medical purposes.</p>
+                </div>
+                <p>Feedback:</p>
+                <textarea id="review" name="review" rows="5" cols="40" placeholder="type something here..."></textarea><br>
+                <button class="btn1" type="submit">Submit!</button>
+            </form>
+        </div>
+        <form class="form1" action="prediction_gb">
+            <button class="btn" type="submit">Back to Prediction</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('pexels-nataliya-vaitkevich-6941883.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.head {
+    width: 410px;
+    margin: auto;
+    margin-top: 3%;
+    background: rgb(234, 186, 152);
+}
+.head h1{
+    font-size: 300%;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(209, 35, 8);
+}
+.form {
+    width: 50%;
+    margin: 1% auto;
+    height:fit-content;
+    background-color: rgba(167, 197, 208, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(63, 5, 5, 0.3);
+    text-align: center;
+    position: relative;
+    
+}
+.form table{
+    width:80%;
+    margin:5px auto;
+}
+.form2 {
+    text-align: center;
+    font-size: 100%;
+    width:100%;
+    height:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(237, 78, 10);
+    position: relative;
+}
+.btn {
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 117, 213);
+    transition-duration: 0.5s;
+    width: 10%;
+    height: 30px;
+    font-size: 18px ;
+    left:200px;
+    bottom:0;
+    position: absolute;
+    border: 2px solid #181111;
+}
+.btn:hover{
+    background-color: rgb(147, 138, 18);
+    color: aliceblue;
+}
+.btn2 {
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 117, 213);
+    transition-duration: 0.5s;
+    width: 20%;
+    position: absolute;
+    bottom:0;
+    right:175px;
+    height: 30px;
+    font-size: 18px ;
+    border: 2px solid #181111;
+}
+.btn2:hover{
+    background-color: rgb(147, 138, 18);
+    color: aliceblue;
+}
+label{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    font-style: italic;
+}
+.text,.text1{
+    width: 20%;
+    box-shadow: 0 2px 10px rgba(63, 5, 5, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    position: fixed;
+    top: 30%;
+    height: 40%;
+    background-color: rgba(0,0,0,0.2);
+}
+.text{
+    left:3%;
+}
+.text1{
+    right:3%;
+}
+ul {
+    list-style-type: circle;
+    margin-top: 5%;
+    width:100%;
+  }
+ul li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(237, 78, 10);
+    margin:15px auto;
+    width:100%;
+}
+.text1:hover{
+    background-color: rgb(201, 37, 130);
+    color: rgb(249, 251, 252);
+  }
+.text:hover{
+    background-color: rgb(201, 37, 130);
+  }
+.text:hover li, .text1:hover li{
+    
+    color: rgb(230, 233, 236);
+}
+.text h3,.text1 h3{
+    width:100%;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(5, 108, 41);
+}

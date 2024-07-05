@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('pexels-pavel-danilyuk-7653093.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box {
+    width: fit-content;
+    margin: auto;
+    margin-top: 12%;
+    background: rgb(234, 186, 152);
+    box-shadow: 0 2px 10px rgba(63, 5, 5, 0.3);
+    border-radius: 15px solid;
+    text-align: center;
+    
+}
+.box h1{
+    font-size: 300%;
+    display: inline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(85, 16, 66);
+    text-transform:uppercase;
+    
+}
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: rgba(167, 197, 208, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(11, 0, 0, 0.3);
+}
+.predict-button {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    color: rgb(20, 4, 61);
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px solid aquamarine;
+    transition-duration: 0.5s;
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+}
+.history-button {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    color: rgb(20, 4, 61);
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px solid aquamarine;
+    transition-duration: 0.5s;
+    width: 20%;
+    height: 50px;
+    font-size: 25px ;
+    
+
+}
+.history-button:hover{
+    background-color: rgb(57, 48, 48);
+    color: aliceblue;
+}
+.predict-button:hover{
+    background-color: rgb(57, 48, 48);
+    color: aliceblue;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+form {
+    width: 50%;
+}
+.container h4 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #090101;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}

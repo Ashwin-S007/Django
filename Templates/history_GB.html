@@ -1,0 +1,41 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes History</title>
+    <link rel="stylesheet" href={% static "style3.css" %}>
+</head>
+<body>
+    <h1>Diabetes History</h1>
+    <table border="2" cellpadding="20">
+        <tr>
+            <th>Glucose</th>
+            <th>Blood Pressure</th>
+            <th>BMI</th>
+            <th>Insulin</th>
+            <th>Skin Thickness</th>
+            <th>Pregnancy</th>
+            <th>Age</th>
+            <th>Diabetes Pedigree</th>
+            <th>Prediction</th>
+        </tr>
+        {% for entry in db %}
+        <tr>
+            <td>{{ entry.glucose }}</td>
+            <td>{{ entry.blood_pressure }}</td>
+            <td>{{ entry.bmi }}</td>
+            <td>{{ entry.insulin }}</td>
+            <td>{{ entry.skinthickness }}</td>
+            <td>{{ entry.pregnancies }}</td>
+            <td>{{ entry.Age }}</td>
+            <td>{{ entry.DiabetesPedigree }}</td>
+            <td>{{ entry.Prediction }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <form action="home_gb">
+        <button class="btn" type="submit">Back to Home</button>
+    </form>
+</body>
+</html>

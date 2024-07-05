@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(24, 201, 42);
+}
+body{
+    text-align: center;
+    background: linear-gradient(to right, #A43931, #1D4350);
+    color: #ffffff;
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #56b968;
+}
+form{
+    margin: 25px 0;
+}
+.btn {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 117, 213);
+    transition-duration: 0.5s;
+    font-size: 18px ;
+    border: 2px solid #181111;
+}
+.btn:hover{
+    background-color: rgb(147, 18, 18);
+    color: aliceblue;
+}
